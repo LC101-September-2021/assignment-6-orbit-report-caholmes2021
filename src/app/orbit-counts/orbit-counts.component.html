@@ -10,3 +10,8 @@
 </div>
 
 <!-- TODO 4: add logic to count number of satellites displayed -->
+
+<div class="counts">
+	<div *ngFor="let num of numSatellites(satellites)">{{ num[0] }}: <span>{{ num[1] }}</span></div>
+</div>
+
